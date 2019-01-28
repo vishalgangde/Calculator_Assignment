@@ -1,0 +1,68 @@
+<!Doctype html>
+
+<head>
+<script type="text/javascript" src="\vishal\calculator.js"> </script>
+<title>Using JavaScript Making Calculator</title>
+<h1>Calculator</h1>
+<style>
+#clearAll{
+     width:130px;
+
+}
+
+.formstyle{
+    width:130px;
+	height:261px;
+	border: 2px solid black;
+
+}
+
+input{
+    width:40px;
+	background-color:green;
+	color:black;
+
+}
+#display{
+    width:130px;
+}
+</style>
+</head>
+<body>
+
+<form name="calcForm" name="Calculator">
+<input type="text"  class="calcDisplay" id="display"/> <br></br>
+<input type="button" class="calcButton" value=" 1 " onclick="inputNumber"/>  
+<input type="button" class="calcButton" value=" 2 " onclick="inputNumber"/>
+<input type="button" class="calcButton" value=" 3 " onclick="inputNumber"/> 
+
+<br></br>
+<input type="button" class="calcButton" value=" 4 " onclick="inputNumber"/>
+<input type="button" class="calcButton" value=" 5 " onclick="inputNumber"/>
+<input type="button" class="calcButton" value=" 6 " onclick="inputNumber"/>
+
+<br></br>
+
+<input type="button" class="calcButton" value=" 7 " onclick="inputNumber"/>
+<input type="button" class="calcButton" value=" 8 " onclick="inputNumber"/>
+<input type="button" class="calcButton" value=" 9 " onclick="inputNumber"/> 
+
+<br></br>
+
+<input type="button" class="calcButton" value=" + " onclick="operation"/>
+<input type="button" class="calcButton" value=" - " onclick="operation"/>
+<input type="button" class="calcButton" value=" * " onclick="operation"/> 
+
+<br></br>
+
+<input type="button" class="calcButton" value=" / " onclick="operation"/>
+<input type="button" class="calcButton" value=" 0 " onclick="inputNumber"/>
+<input type="button" class="calcButton" value=" = " onclick="calculate"/>
+
+</form>
+
+
+
+</body>
+
+</html>
